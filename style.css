@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F0F2F5;
+}
+
+.logo{
+    color: blue;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 44px;
+}
+
+.form{
+    width: 30%;
+    height: 60vh;
+    margin-top: 20px;
+    margin-left: 340px;
+    background-color: white;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.07);
+    border-radius: 5PX;
+}
+
+.header p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form input{
+    width: 90%;
+    height: 36px;
+    margin-left: 13px;
+    padding-left: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.form button{
+    width: 90%;
+    height: 36px;
+    margin-left: 13px;
+    padding-left: 10px;
+    margin-bottom: 13px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer a{
+    font-size: 10px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.box{
+    width: 180px;
+    height: 180px;
+    background-color: grey;
+    padding: 8px;
+    white-space: inherit;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 18px 0 0 0;
+
+}
+
+.box span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box p{
+    font-size: 16px;
+    font-weight: 400;
+}
